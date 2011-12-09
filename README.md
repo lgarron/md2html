@@ -13,7 +13,7 @@ md2html will create a file called *README.md.auto.html*.
 - Easy-to-use commandline call. Can be used, e.g. in conjuction with a file monitor, a script, or a Quicksilver action.
 - One-file HTML output that displays on any computer.
 - Preserves the original Markdown source in the generated file.
-- Simple, pretty CSS. This is taken from [toland](https://github.com/toland/)'s [QLMarkdown](https://github.com/toland/qlmarkdown), although [most commits to the stylesheet](https://github.com/toland/qlmarkdown/blame/master/styles.css) seem to be by [jiho](https://github.com/jiho). Most of it seems to based on from ``ADC'', presumably the [Apple Developer Connection[(Apple Developer Connection). As required by the QLMarkdown license, credits are included at the bottom.
+- Simple, pretty CSS. This is taken from [toland](https://github.com/toland/)'s [QLMarkdown](https://github.com/toland/qlmarkdown), although [most commits to the stylesheet](https://github.com/toland/qlmarkdown/blame/master/styles.css) seem to be by [jiho](https://github.com/jiho). Most of it seems to based on from ``ADC'', presumably the [Apple Developer Connection](http://developer.apple.com/). As required by the QLMarkdown license, credits are included at the bottom.
 
 ## Dependencies
 

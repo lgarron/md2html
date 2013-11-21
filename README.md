@@ -13,7 +13,7 @@ md2html will create a file called *README.md.auto.html*.
 - Easy-to-use commandline call. Can be used, e.g. in conjuction with a file monitor, a script, or a Quicksilver action.
 - One-file HTML output that displays on any computer.
 - Preserves the original Markdown source in the generated file.
-- Simple, pretty CSS. This is taken from [toland](https://github.com/toland/)'s [QLMarkdown](https://github.com/toland/qlmarkdown), although [most commits to the stylesheet](https://github.com/toland/qlmarkdown/blame/master/styles.css) seem to be by [jiho](https://github.com/jiho). Most of it seems to based on from ``ADC'', presumably the [Apple Developer Connection](http://developer.apple.com/). As required by the QLMarkdown license, credits are included at the bottom.
+- Simple, pretty CSS. This is taken from [toland](https://github.com/toland/)'s [QLMarkdown](https://github.com/toland/qlmarkdown), although [most commits to the stylesheet](https://github.com/toland/qlmarkdown/blame/master/styles.css) seem to be by [jiho](https://github.com/jiho). Most of it seems to based on ``ADC'', presumably the [Apple Developer Connection](http://developer.apple.com/). As required by the QLMarkdown license, credits are included at the bottom.
 
 ## Dependencies
 
@@ -33,7 +33,7 @@ Create an Applescript file at "/Users/lgarron/Library/Application Support/Quicks
     	return null
     end open
 
-Make sure that your reference tomarkdown in md2html does not depend on parts of he PATH that are only available in the commandline shell.
+Make sure that your reference tomarkdown in md2html does not depend on parts of the PATH that are only available in the commandline shell.
 
 ## Credits
 This product includes software developed by David Loren Parsons <http://www.pell.portland.or.us/~orc>

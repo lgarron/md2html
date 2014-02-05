@@ -6,7 +6,7 @@ Run it using
 
     ./md2html README.md
 
-md2html will create a file called *README.md.auto.html*.
+md2html will create a file called *README.html*.
 
 ## Features
 

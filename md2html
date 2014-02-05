@@ -5,7 +5,7 @@
 MARKDOWN_PATH="/usr/local/bin/markdown"
 IN_FILE_PATH="$1"
 IN_FILE_NAME=`basename "$IN_FILE_PATH"`
-OUT_FILE_PATH="$IN_FILE_PATH.auto.html"
+OUT_FILE_PATH="${IN_FILE_PATH%.*}.html"
 
 function printStatus {
   echo "$@"

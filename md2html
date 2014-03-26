@@ -28,6 +28,7 @@ printStatus "[==> ] Starting HTML and including CSS..."
 
 echo "<html>" >> "$OUT_FILE_PATH"
 echo "<head>" >> "$OUT_FILE_PATH"
+echo '<meta http-equiv="Content-type" content="text/html;charset=UTF-8">' >> "$OUT_FILE_PATH"
 echo "<title>$IN_FILE_NAME [Generated]</title>" >> "$OUT_FILE_PATH"
 echo "<style>" >> "$OUT_FILE_PATH"
 echo "$1" >> "$OUT_FILE_PATH"

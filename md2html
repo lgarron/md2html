@@ -2,6 +2,14 @@
 # Markdown Pretty Self-Contained HTML Generation Script
 # By Lucas Garron
 
+set -e
+
+if [ "$#" = "0" ]
+then
+	echo "Usage: ${0} file.md"
+	exit 1
+fi
+
 MARKDOWN_PATH="/usr/local/bin/markdown"
 IN_FILE_PATH="$1"
 IN_FILE_NAME=`basename "$IN_FILE_PATH"`
